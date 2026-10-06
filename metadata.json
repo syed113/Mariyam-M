@@ -1,0 +1,6 @@
+{
+  "name": "Mariyam Maquillage | Luxury Indian Beauty & AI Shade Studio",
+  "description": "Luxury Indian beauty e-commerce destination featuring AI precision shade matching, Ask Mariyam beauty concierge, bridal atelier, and curated prestige cosmetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,3454 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "email": "admin@mariyam.com",
+      "passwordHash": "$2b$10$nXIx0ouw94K6qBSUOi.rbuHX8YxRmKLCpO/tahDft2qHXB2dFjFo.",
+      "name": "Mariyam Artistry Admin",
+      "phone": "+91 98200 11223",
+      "role": "ADMIN",
+      "createdAt": "2026-10-06T17:07:31.416Z"
+    },
+    {
+      "id": "usr-cust-01",
+      "email": "aanya.sharma@example.com",
+      "passwordHash": "$2b$10$nUkIG6H88qyZwQRVzE7SUeqBwigvlvWqIbih28yPnRDdauj8BMszO",
+      "name": "Aanya Sharma",
+      "phone": "+91 98201 54321",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-06T17:07:31.510Z"
+    },
+    {
+      "id": "usr-admin-02",
+      "email": "director@mariyam-maquillage.com",
+      "passwordHash": "$2b$10$vHmFhbFT.CRd45rOP4KS7.YDGsMZ9hRCI4kZMmjcSFB.cFalCKgOW",
+      "name": "Executive Director",
+      "phone": "+91 98200 99887",
+      "role": "ADMIN",
+      "createdAt": "2026-10-06T17:10:20.626Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "addr-01",
+      "userId": "usr-cust-01",
+      "fullName": "Aanya Sharma",
+      "phone": "+91 98201 54321",
+      "street": "402, Sea Green Apartments, Carter Road, Bandra West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050",
+      "isDefault": true,
+      "type": "Home"
+    }
+  ],
+  "products": [
+    {
+      "id": "mm-prod-1",
+      "sku": "MM-RSF-101",
+      "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+      "slug": "royal-silk-luminous-foundation",
+      "brand": "Mariyam Maquillage",
+      "brandType": "Mariyam Signature",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Foundation",
+      "price": 1899,
+      "mrp": 2499,
+      "compareAtPrice": 2499,
+      "discountPercent": 24,
+      "rating": 4.9,
+      "reviewCount": 840,
+      "verifiedPurchaseCount": 690,
+      "images": [
+        "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "shades": [
+        {
+          "id": "sh-101",
+          "name": "110 Porcelain Glow",
+          "hexCode": "#F8E5D3",
+          "undertone": "cool",
+          "description": "Very fair with cool pink nuances and luminous finish",
+          "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-102",
+          "name": "128 Warm Sand",
+          "hexCode": "#F1D1B5",
+          "undertone": "warm",
+          "description": "Fair-light with warm golden yellow undertone",
+          "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-103",
+          "name": "220 Golden Beige",
+          "hexCode": "#E4BD9A",
+          "undertone": "warm",
+          "description": "Medium with golden warm undertones (Most Popular in India)",
+          "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-104",
+          "name": "230 Natural Olive",
+          "hexCode": "#D8AE89",
+          "undertone": "olive",
+          "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+          "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-105",
+          "name": "310 Honey Caramel",
+          "hexCode": "#C8976C",
+          "undertone": "warm",
+          "description": "Tan complexion with radiant warm amber & honey tones",
+          "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-106",
+          "name": "330 Rich Almond",
+          "hexCode": "#B57E53",
+          "undertone": "neutral",
+          "description": "Tan-deep with balanced neutral golden undertones",
+          "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-107",
+          "name": "410 Deep Espresso",
+          "hexCode": "#925A37",
+          "undertone": "warm",
+          "description": "Deep dusky complexion with warm terracotta undertones",
+          "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        },
+        {
+          "id": "sh-108",
+          "name": "430 Royal Ebony",
+          "hexCode": "#693D25",
+          "undertone": "neutral",
+          "description": "Rich deep complexion with flawless neutral undertones",
+          "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+          "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+          "inStock": true
+        }
+      ],
+      "skinTypeCompatibility": [
+        "Dry",
+        "Normal",
+        "Combination"
+      ],
+      "undertones": [
+        "warm",
+        "neutral",
+        "olive",
+        "cool"
+      ],
+      "finish": "Dewy",
+      "coverage": "Medium",
+      "concerns": [
+        "Uneven Tone",
+        "Dullness",
+        "Dehydration"
+      ],
+      "keyIngredients": [
+        "Hyaluronic Acid",
+        "Kashmiri Saffron Extract",
+        "Niacinamide 2%",
+        "Gold Peptides"
+      ],
+      "benefits": [
+        "Specially formulated for Indian skin tones with zero ashy flashback",
+        "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+        "Infused with Kashmiri saffron for continuous barrier nourishment",
+        "Buildable medium-to-full radiant coverage"
+      ],
+      "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+      "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+      "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+      "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+      "stockCount": 85,
+      "isBestseller": true,
+      "isFeatured": true,
+      "isClean": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    },
+    {
+      "id": "mm-prod-2",
+      "sku": "MM-HVM-202",
+      "name": "Mariyam Maquillage Hydra-Velvet Transfer-Proof Liquid Lipstick",
+      "slug": "hydra-velvet-liquid-lipstick",
+      "brand": "Mariyam Maquillage",
+      "brandType": "Mariyam Signature",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Lipstick",
+      "price": 1199,
+      "mrp": 1599,
+      "compareAtPrice": 1599,
+      "discountPercent": 25,
+      "rating": 4.8,
+      "reviewCount": 520,
+      "verifiedPurchaseCount": 410,
+      "images": [
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=800&q=80"
+      ],
+      "shades": [
+        {
+          "id": "lip-01",
+          "name": "Bombay Nude",
+          "hexCode": "#B57B6C",
+          "undertone": "warm",
+          "description": "Warm peachy nude that flatters all Indian undertones without washing out",
+          "inStock": true
+        },
+        {
+          "id": "lip-02",
+          "name": "Gulab Crimson",
+          "hexCode": "#A43444",
+          "undertone": "cool",
+          "description": "Velvety rose-wine with regal ruby undertones for festive celebrations",
+          "inStock": true
+        },
+        {
+          "id": "lip-03",
+          "name": "Chai Spice",
+          "hexCode": "#8D4D3D",
+          "undertone": "warm",
+          "description": "Toasted cinnamon brown enriched with warm terracotta notes",
+          "inStock": true
+        },
+        {
+          "id": "lip-04",
+          "name": "Kolhapur Berry",
+          "hexCode": "#682537",
+          "undertone": "cool",
+          "description": "Deep seductive plum berry with modern editorial intensity",
+          "inStock": true
+        },
+        {
+          "id": "lip-05",
+          "name": "Sindoor Scarlet",
+          "hexCode": "#C0252A",
+          "undertone": "neutral",
+          "description": "Classic royal bride scarlet with balanced undertones that make teeth look brighter",
+          "inStock": true
+        }
+      ],
+      "skinTypeCompatibility": [
+        "Normal",
+        "Dry",
+        "Combination",
+        "Oily"
+      ],
+      "finish": "Velvet",
+      "coverage": "Full",
+      "concerns": [
+        "Dry Lips",
+        "Feathering",
+        "Smudging"
+      ],
+      "keyIngredients": [
+        "Sweet Almond Oil",
+        "Vitamin E",
+        "Hyaluronic Spheres",
+        "Shea Butter"
+      ],
+      "benefits": [
+        "12-hour transfer-proof wear without lip crackling or drying",
+        "Richly pigmented one-swipe full color payoff",
+        "Infused with hyaluronic filling spheres for plush, plump comfort",
+        "Precise diamond applicator for clean lip contours"
+      ],
+      "howToUse": "Outline lips starting at cupid's bow using the pointed tip. Fill in with smooth strokes. Allow 90 seconds to dry into a transfer-resistant velvet veil.",
+      "ingredientsList": "Isododecane, Dimethicone, Trimethylsiloxysilicate, Prunus Amygdalus Dulcis Oil, Butyrospermum Parkii Butter, Tocopheryl Acetate, CI 77491, CI 77492, CI 15850.",
+      "shortDescription": "Velvety transfer-resistant lip color enriched with nourishing almond oil and lip-smoothing hyaluronic spheres.",
+      "fullDescription": "A groundbreaking comfortable matte liquid lipstick crafted to stay put through festive feasts and long wedding nights without drying your lips.",
+      "stockCount": 140,
+      "isBestseller": true,
+      "isFeatured": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    },
+    {
+      "id": "mm-prod-3",
+      "sku": "MM-24K-303",
+      "name": "Mariyam Maquillage 24K Micro-Mist Lock & Fixer Spray (100ml)",
+      "slug": "24k-micro-mist-lock-fixer",
+      "brand": "Mariyam Maquillage",
+      "brandType": "Mariyam Signature",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Setting Spray",
+      "price": 1499,
+      "mrp": 1999,
+      "compareAtPrice": 1999,
+      "discountPercent": 25,
+      "rating": 4.9,
+      "reviewCount": 390,
+      "verifiedPurchaseCount": 310,
+      "images": [
+        "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Normal",
+        "Oily",
+        "Combination",
+        "Dry"
+      ],
+      "finish": "Radiant",
+      "concerns": [
+        "Makeup Meltdown",
+        "Humidity Smudging",
+        "Dullness"
+      ],
+      "keyIngredients": [
+        "24K Pure Gold Flakes",
+        "Rosewater of Kannauj",
+        "Green Tea Bioferment",
+        "PVP Film Former"
+      ],
+      "benefits": [
+        "Locks makeup for 24 hours against tropical heat & monsoons",
+        "Ultra-fine micro-aerosol delivers cloud-like mist without droplets",
+        "Provides subtle golden glow without chunky glitter",
+        "Calms redness with distilled Kannauj rosewater"
+      ],
+      "howToUse": "Shake vigorously to suspend gold particulates. Hold bottle 8-10 inches from face and mist evenly in an 'X' and 'T' pattern across set makeup.",
+      "ingredientsList": "Rosa Damascena Flower Water, Aqua, PVP, Glycerin, 24K Gold, Camellia Sinensis Leaf Extract, Phenoxyethanol, Disodium EDTA.",
+      "shortDescription": "All-day humidity-proof setting spray with suspended 24K gold flakes and distilled Kannauj rosewater.",
+      "fullDescription": "Engineered specifically for Indian climates, this weightless mist creates an invisible water-resistant shield while imparting a celestial golden hour radiance.",
+      "stockCount": 65,
+      "isBestseller": true,
+      "isFeatured": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    },
+    {
+      "id": "mm-prod-4",
+      "sku": "MM-MCR-404",
+      "name": "Mariyam Maquillage Midnight Renewal Multi-Ceramide Barrier Cream",
+      "slug": "midnight-renewal-ceramide-barrier-cream",
+      "brand": "Mariyam Maquillage",
+      "brandType": "Mariyam Signature",
+      "department": "Skincare",
+      "category": "Skincare",
+      "subcategory": "Moisturizer",
+      "price": 2199,
+      "mrp": 2799,
+      "compareAtPrice": 2799,
+      "discountPercent": 21,
+      "rating": 4.95,
+      "reviewCount": 610,
+      "verifiedPurchaseCount": 520,
+      "images": [
+        "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Dry",
+        "Sensitive",
+        "Combination",
+        "Normal"
+      ],
+      "finish": "Dewy",
+      "concerns": [
+        "Damaged Barrier",
+        "Dryness",
+        "Pollution Sensitivity",
+        "Fine Lines"
+      ],
+      "keyIngredients": [
+        "5 Essential Ceramides (NP, AP, EOP, NS, AS)",
+        "Centella Asiatica",
+        "Oat Beta-Glucan",
+        "Bakuchiol 1%"
+      ],
+      "benefits": [
+        "Restores compromised skin barrier within 3 nights",
+        "Calms irritation triggered by extreme urban pollution & heat",
+        "Bakuchiol encourages gentle cellular renewal without retinol sensitivity",
+        "Plumping peptide hydration without greasy residue"
+      ],
+      "howToUse": "Warm a pea-sized portion between fingertips. Gently press into face, neck and décolletage as the final step of your PM beauty ritual.",
+      "ingredientsList": "Aqua, Ceramide NP, Ceramide AP, Ceramide EOP, Phytosphingosine, Cholesterol, Bakuchiol, Centella Asiatica Extract, Avena Sativa Kernel Flour, Squalane.",
+      "shortDescription": "Ultra-restorative evening cream packed with 5 bio-identical ceramides and gentle bakuchiol.",
+      "fullDescription": "An intensive night balm formulated to heal stressed skin barriers damaged by pollution, heavy makeup, and changing Indian weather.",
+      "stockCount": 45,
+      "isBestseller": true,
+      "isFeatured": true,
+      "isClean": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    },
+    {
+      "id": "mm-prod-5",
+      "sku": "MM-PGD-505",
+      "name": "Mariyam Maquillage Luminous Peptide Glaze Dew Drops",
+      "slug": "luminous-peptide-glaze-dew-drops",
+      "brand": "Mariyam Maquillage",
+      "brandType": "Mariyam Signature",
+      "department": "Skincare",
+      "category": "Skincare",
+      "subcategory": "Serum",
+      "price": 1799,
+      "mrp": 2299,
+      "compareAtPrice": 2299,
+      "discountPercent": 22,
+      "rating": 4.85,
+      "reviewCount": 340,
+      "verifiedPurchaseCount": 290,
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Normal",
+        "Dry",
+        "Combination",
+        "Oily"
+      ],
+      "finish": "Radiant",
+      "concerns": [
+        "Dullness",
+        "Texture",
+        "Dehydration"
+      ],
+      "keyIngredients": [
+        "Copper Peptides",
+        "Multi-Weight Hyaluronic Acid",
+        "Niacinamide 5%",
+        "Watermelon Seed Extract"
+      ],
+      "benefits": [
+        "Instantly confers glass-skin reflective finish with zero stickiness",
+        "Functions as a primer serum under foundation or natural highlighter",
+        "Boosts skin elasticity with bioactive copper peptides",
+        "Non-comedogenic and light on pores"
+      ],
+      "howToUse": "Apply 2-3 drops directly onto bare skin before moisturizer, mix 1 drop with foundation for enhanced luminosity, or pat over cheekbones as a high-shine glaze.",
+      "ingredientsList": "Aqua, Niacinamide, Glycerin, Copper Tripeptide-1, Sodium Hyaluronate, Citrullus Lanatus Fruit Extract, Panthenol, Carbomer, Phenoxyethanol.",
+      "shortDescription": "Multitasking peptide serum and liquid glaze primer that delivers glass skin radiance.",
+      "fullDescription": "Formulated for instant glass-skin dewy radiance that also works as an ultra-hydrating makeup base.",
+      "stockCount": 75,
+      "isBestseller": true,
+      "isFeatured": true,
+      "isClean": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    },
+    {
+      "id": "mm-prod-6",
+      "sku": "KAY-MATTE-LIP",
+      "name": "Kay Beauty Matteinee Matte Lip Crayon by Katrina Kaif",
+      "slug": "kay-beauty-matteinee-matte-lip-crayon",
+      "brand": "Kay Beauty",
+      "brandType": "Indian Prestige",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Lipstick",
+      "price": 799,
+      "mrp": 999,
+      "compareAtPrice": 999,
+      "discountPercent": 20,
+      "rating": 4.7,
+      "reviewCount": 920,
+      "verifiedPurchaseCount": 780,
+      "images": [
+        "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Normal",
+        "Dry",
+        "Combination"
+      ],
+      "finish": "Matte",
+      "coverage": "Full",
+      "concerns": [
+        "Dryness",
+        "Fading"
+      ],
+      "keyIngredients": [
+        "Marula Oil",
+        "Chamomile Extract",
+        "Carnauba Wax"
+      ],
+      "benefits": [
+        "Enriched with nourishing African Marula oil for velvety glide",
+        "High-impact matte color with weightless feel",
+        "Easy sharpenable crayon format with precision tip"
+      ],
+      "howToUse": "Glide effortlessly across lips. Layer for richer intensity.",
+      "stockCount": 110,
+      "isBestseller": true,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-7",
+      "sku": "MIN-SPF-50",
+      "name": "Minimalist Sunscreen SPF 50 PA++++ with Niacinamide & Vitamin B5",
+      "slug": "minimalist-sunscreen-spf-50",
+      "brand": "Minimalist",
+      "brandType": "Indian Prestige",
+      "department": "Skincare",
+      "category": "Skincare",
+      "subcategory": "Sunscreen",
+      "price": 399,
+      "mrp": 499,
+      "compareAtPrice": 499,
+      "discountPercent": 20,
+      "rating": 4.8,
+      "reviewCount": 1450,
+      "verifiedPurchaseCount": 1200,
+      "images": [
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Oily",
+        "Combination",
+        "Acne-Prone",
+        "Normal"
+      ],
+      "finish": "Satin",
+      "concerns": [
+        "Sun Damage",
+        "Tanning",
+        "Pigmentation",
+        "White Cast"
+      ],
+      "keyIngredients": [
+        "New-Age UV Filters",
+        "Niacinamide 2%",
+        "Panthenol",
+        "Centella Extract"
+      ],
+      "benefits": [
+        "Zero white cast guaranteed on deep Indian skin tones",
+        "Tested PA++++ broad spectrum protection against UVA & UVB rays",
+        "Lightweight lotion texture that does not clog pores or pill under makeup"
+      ],
+      "howToUse": "Apply two finger lengths generously to face and neck 15 minutes before stepping into the sun. Reapply every 2-3 hours.",
+      "stockCount": 180,
+      "isBestseller": true,
+      "isClean": true,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-8",
+      "sku": "DOT-CER-MOIST",
+      "name": "Dot & Key Ceramides & Hyaluronic Skin Barrier Repair Cream",
+      "slug": "dot-and-key-ceramides-hyaluronic-barrier-cream",
+      "brand": "Dot & Key",
+      "brandType": "Indian Prestige",
+      "department": "Skincare",
+      "category": "Skincare",
+      "subcategory": "Moisturizer",
+      "price": 495,
+      "mrp": 595,
+      "compareAtPrice": 595,
+      "discountPercent": 17,
+      "rating": 4.7,
+      "reviewCount": 780,
+      "verifiedPurchaseCount": 650,
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Dry",
+        "Sensitive",
+        "Normal"
+      ],
+      "finish": "Dewy",
+      "concerns": [
+        "Dryness",
+        "Compromised Barrier",
+        "Flakiness"
+      ],
+      "keyIngredients": [
+        "5 Ceramides",
+        "Hyaluronic Acid",
+        "Japanese Rice Water",
+        "Colloidal Oatmeal"
+      ],
+      "benefits": [
+        "Deep moisture infusion for 72 hours",
+        "Soothes itchy, irritated or peeling skin barrier",
+        "Smooth whipped texture that absorbs cleanly"
+      ],
+      "howToUse": "Massage into cleansed face and neck morning and evening.",
+      "stockCount": 95,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-9",
+      "sku": "SUGAR-KAJAL-01",
+      "name": "SUGAR Cosmetics Stroke of Genius Heavy-Duty Kohl Kajal - 01 Back to Black",
+      "slug": "sugar-stroke-of-genius-kohl-kajal",
+      "brand": "SUGAR Cosmetics",
+      "brandType": "Indian Prestige",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Kajal & Kohl",
+      "price": 499,
+      "mrp": 599,
+      "compareAtPrice": 599,
+      "discountPercent": 17,
+      "rating": 4.85,
+      "reviewCount": 1120,
+      "verifiedPurchaseCount": 980,
+      "images": [
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Normal",
+        "Sensitive",
+        "Oily"
+      ],
+      "finish": "Matte",
+      "concerns": [
+        "Smudging",
+        "Watery Eyes",
+        "Pigment Payoff"
+      ],
+      "keyIngredients": [
+        "Castor Seed Oil",
+        "Carnauba Wax",
+        "Iron Oxides"
+      ],
+      "benefits": [
+        "Ultra-creamy waterproof glide for waterline and tightline",
+        "Jet black matte finish that stays 12 hours without raccoon eyes",
+        "Free of parabens and ophthalmologist certified"
+      ],
+      "howToUse": "Swipe across waterline. Smudge along lash line with a brush for a dramatic smoky Indian eye.",
+      "stockCount": 150,
+      "isBestseller": true,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-10",
+      "sku": "MAC-STUDIO-FIX",
+      "name": "M.A.C Studio Fix Fluid SPF 15 24HR Matte Foundation",
+      "slug": "mac-studio-fix-fluid-foundation",
+      "brand": "M.A.C",
+      "brandType": "International Luxury",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Foundation",
+      "price": 3600,
+      "mrp": 3900,
+      "compareAtPrice": 3900,
+      "discountPercent": 8,
+      "rating": 4.8,
+      "reviewCount": 650,
+      "verifiedPurchaseCount": 540,
+      "images": [
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Oily",
+        "Combination",
+        "Normal"
+      ],
+      "finish": "Matte",
+      "coverage": "Full",
+      "concerns": [
+        "Shine Control",
+        "High Coverage",
+        "Open Pores"
+      ],
+      "keyIngredients": [
+        "Silica",
+        "Vitamin E",
+        "Broad Spectrum SPF 15"
+      ],
+      "benefits": [
+        "24-hour oil-control matte finish",
+        "Iconic NC (Neutral Cool/Golden) & NW shades",
+        "Full camera-ready coverage without cakey texture"
+      ],
+      "howToUse": "Buff into skin using a dense foundation brush starting from the center of the face.",
+      "stockCount": 30,
+      "isBestseller": true
+    },
+    {
+      "id": "mm-prod-11",
+      "sku": "HUDA-EMPOWER",
+      "name": "Huda Beauty Empowered Luxury Eyeshadow Palette",
+      "slug": "huda-beauty-empowered-eyeshadow-palette",
+      "brand": "Huda Beauty",
+      "brandType": "International Luxury",
+      "department": "Makeup",
+      "category": "Makeup",
+      "subcategory": "Eyeshadow Palettes",
+      "price": 5800,
+      "mrp": 6400,
+      "compareAtPrice": 6400,
+      "discountPercent": 9,
+      "rating": 4.95,
+      "reviewCount": 410,
+      "verifiedPurchaseCount": 350,
+      "images": [
+        "https://images.unsplash.com/photo-1583241800698-e8ab01c85b27?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1583241800698-e8ab01c85b27?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1583241800698-e8ab01c85b27?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1583241800698-e8ab01c85b27?auto=format&fit=crop&w=800&q=80"
+      ],
+      "finish": "Radiant",
+      "concerns": [
+        "Bridal Glam",
+        "Festive Eyes",
+        "Pigment Richness"
+      ],
+      "benefits": [
+        "18 opulent buttery shades in coppers, golds, and buttery mattes",
+        "High pigment payoff tailored for diverse skin tones",
+        "Long-wear gel liners and wet-look foil toppers included"
+      ],
+      "howToUse": "Build your base with neutral mattes, and press metallic foil toppers with fingertips for ultra-reflective dimension.",
+      "stockCount": 22,
+      "isBestseller": true,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-12",
+      "sku": "CT-MAGIC-CRM",
+      "name": "Charlotte Tilbury Charlotte's Magic Cream Instant Glow Moisturiser",
+      "slug": "charlotte-tilbury-magic-cream",
+      "brand": "Charlotte Tilbury",
+      "brandType": "International Luxury",
+      "department": "Skincare",
+      "category": "Skincare",
+      "subcategory": "Moisturizer",
+      "price": 5650,
+      "mrp": 6150,
+      "compareAtPrice": 6150,
+      "discountPercent": 8,
+      "rating": 4.88,
+      "reviewCount": 310,
+      "verifiedPurchaseCount": 260,
+      "images": [
+        "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Dry",
+        "Normal",
+        "Mature"
+      ],
+      "finish": "Dewy",
+      "concerns": [
+        "Dullness",
+        "Dehydration",
+        "Red Carpet Prep"
+      ],
+      "keyIngredients": [
+        "BioNymph Peptide",
+        "Hyaluronic Acid",
+        "Rosehip Oil",
+        "Vitamins C & E"
+      ],
+      "benefits": [
+        "Legendary red carpet moisturizer for instant lit-from-within cushion",
+        "Reduces fine line appearance under foundation",
+        "Nourishing formula beloved by celebrity makeup artists worldwide"
+      ],
+      "howToUse": "Apply the 'Tilbury Tap' massage across temples, jawline, and cheeks before foundation.",
+      "stockCount": 18,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-13",
+      "sku": "MM-OUD-NOIR",
+      "name": "Mariyam Maquillage Oud & Velvet Rose Royale Eau de Parfum (100ml)",
+      "slug": "oud-velvet-rose-royale-perfume",
+      "brand": "Mariyam Maquillage",
+      "brandType": "Mariyam Signature",
+      "department": "Fragrance",
+      "category": "Fragrance",
+      "subcategory": "Eau de Parfum",
+      "price": 3499,
+      "mrp": 4499,
+      "compareAtPrice": 4499,
+      "discountPercent": 22,
+      "rating": 4.96,
+      "reviewCount": 280,
+      "verifiedPurchaseCount": 240,
+      "images": [
+        "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "concerns": [
+        "Long-Lasting Fragrance",
+        "Signature Scent",
+        "Festive Allure"
+      ],
+      "keyIngredients": [
+        "Assam Agarwood Oud",
+        "Taif Rose Petals",
+        "Golden Amber",
+        "Mysore Sandalwood"
+      ],
+      "benefits": [
+        "Handcrafted extrait de parfum with 25% fragrance oil concentration",
+        "Lasts 18+ hours on fabric and skin through Indian festivities",
+        "Rich harmonious sillage blending smoked agarwood with velvety Damascus roses",
+        "Bottled in heavyweight fluted crystal with 24K gold-plated cap"
+      ],
+      "howToUse": "Spray on pulse points: wrists, hollow of throat, behind ears, and scarf edges for majestic projection.",
+      "shortDescription": "Regal Indian artisanal perfume combining Assam agarwood with opulent Taif rose petals.",
+      "stockCount": 35,
+      "isBestseller": true,
+      "isFeatured": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    },
+    {
+      "id": "mm-prod-14",
+      "sku": "PIL-ROSEMARY-OIL",
+      "name": "Pilgrim Spanish Rosemary & Biotin Hair Growth Oil with Redensyl",
+      "slug": "pilgrim-rosemary-biotin-hair-growth-oil",
+      "brand": "Pilgrim",
+      "brandType": "Indian Prestige",
+      "department": "Haircare",
+      "category": "Haircare",
+      "subcategory": "Hair Oil",
+      "price": 495,
+      "mrp": 650,
+      "compareAtPrice": 650,
+      "discountPercent": 24,
+      "rating": 4.72,
+      "reviewCount": 890,
+      "verifiedPurchaseCount": 740,
+      "images": [
+        "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Normal",
+        "Dry",
+        "Oily"
+      ],
+      "concerns": [
+        "Hair Fall",
+        "Thinning Hair",
+        "Scalp Health"
+      ],
+      "keyIngredients": [
+        "Spanish Rosemary Oil",
+        "Redensyl 3%",
+        "Biotin",
+        "Amla Extract"
+      ],
+      "benefits": [
+        "Clinically proven hair follicle reactivation",
+        "Reduces postpartum and seasonal hair shedding",
+        "Non-sticky lightweight oil that washes out effortlessly"
+      ],
+      "howToUse": "Section dry hair and apply 5-10 drops directly to scalp using dropper. Massage gently for 5 minutes and leave for at least 1 hour or overnight.",
+      "stockCount": 120,
+      "isClean": true,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-15",
+      "sku": "PLUM-VANILLA-BUTTER",
+      "name": "Plum BodyLovin' Vanilla Vibes Body Butter for Dry Skin",
+      "slug": "plum-bodylovin-vanilla-vibes-body-butter",
+      "brand": "Plum",
+      "brandType": "Indian Prestige",
+      "department": "Bath & Body",
+      "category": "Bath & Body",
+      "subcategory": "Body Butter",
+      "price": 450,
+      "mrp": 525,
+      "compareAtPrice": 525,
+      "discountPercent": 14,
+      "rating": 4.8,
+      "reviewCount": 650,
+      "verifiedPurchaseCount": 520,
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80"
+      ],
+      "skinTypeCompatibility": [
+        "Dry",
+        "Normal"
+      ],
+      "concerns": [
+        "Body Dryness",
+        "Rough Knees & Elbows"
+      ],
+      "keyIngredients": [
+        "Shea Butter",
+        "Brazil Nut Oil",
+        "Sunflower Seed Oil"
+      ],
+      "benefits": [
+        "Warm gourmand vanilla bakery fragrance that lingers all day",
+        "Intense moisture nourishment for 48 hours without greasy feel",
+        "100% vegan formula packed with cold-pressed botanical butters"
+      ],
+      "howToUse": "Slather over freshly bathed, towel-dried skin.",
+      "stockCount": 80,
+      "isVegan": true,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-16",
+      "sku": "BSC-BEARD-GROWTH",
+      "name": "Bombay Shaving Company Beard Growth Oil with Vetiver & Jojoba",
+      "slug": "bombay-shaving-company-beard-growth-oil",
+      "brand": "Bombay Shaving Company",
+      "brandType": "Indian Prestige",
+      "department": "Bath & Body",
+      "category": "Bath & Body",
+      "subcategory": "Beard Oil",
+      "price": 399,
+      "mrp": 499,
+      "compareAtPrice": 499,
+      "discountPercent": 20,
+      "rating": 4.65,
+      "reviewCount": 420,
+      "verifiedPurchaseCount": 360,
+      "images": [
+        "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "concerns": [
+        "Patchy Beard",
+        "Beard Dandruff",
+        "Coarse Beard Hair"
+      ],
+      "keyIngredients": [
+        "Vetiver Oil",
+        "Jojoba Oil",
+        "Brahmi Extract"
+      ],
+      "benefits": [
+        "Strengthens roots and softens coarse beard bristles",
+        "Calms itchy under-beard skin with cooling vetiver aroma",
+        "Lightweight fast absorption"
+      ],
+      "howToUse": "Rub 4-6 drops between palms and massage through beard from roots to tips.",
+      "stockCount": 50,
+      "isCrueltyFree": true
+    },
+    {
+      "id": "mm-prod-17",
+      "sku": "PAC-PRO-BRUSH-SET",
+      "name": "PAC Professional Master 12-Piece Artisanal Makeup Brush Kit with Bag",
+      "slug": "pac-master-12-piece-brush-kit",
+      "brand": "PAC Cosmetics",
+      "brandType": "Indian Prestige",
+      "department": "Tools & Brushes",
+      "category": "Tools & Brushes",
+      "subcategory": "Makeup Brushes",
+      "price": 3250,
+      "mrp": 4200,
+      "compareAtPrice": 4200,
+      "discountPercent": 23,
+      "rating": 4.92,
+      "reviewCount": 380,
+      "verifiedPurchaseCount": 320,
+      "images": [
+        "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "primaryImage": "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=400&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "concerns": [
+        "Seamless Blending",
+        "Brush Shedding",
+        "Precision Application"
+      ],
+      "keyIngredients": [
+        "Micro-Fine Synthetic Duo-Fiber Filaments",
+        "Handcrafted Wooden Handles",
+        "Copper Ferrules"
+      ],
+      "benefits": [
+        "12 essential brushes for face, eyes, and contour blending",
+        "Ultra-soft vegan bristles that do not shed or soak excess liquid",
+        "Includes water-resistant zip travel pouch"
+      ],
+      "howToUse": "Use dense brushes for liquid and cream blending, and fluffy brushes for setting powder, blush, and eyeshadow transitions.",
+      "stockCount": 40,
+      "isBestseller": true,
+      "isCrueltyFree": true,
+      "isVegan": true
+    }
+  ],
+  "variants": [],
+  "categories": [
+    {
+      "id": "cat-makeup",
+      "name": "Makeup",
+      "slug": "makeup",
+      "department": "Makeup",
+      "description": "Foundations, concealers, and lipsticks formulated for Indian skin tones"
+    },
+    {
+      "id": "cat-skincare",
+      "name": "Skincare",
+      "slug": "skincare",
+      "department": "Skincare",
+      "description": "Ayurvedic bioactives meets modern dermatological actives"
+    },
+    {
+      "id": "cat-fragrance",
+      "name": "Fragrance",
+      "slug": "fragrance",
+      "department": "Fragrance",
+      "description": "Prestige Kannauj rose and pure Assamese oud blends"
+    },
+    {
+      "id": "cat-tools",
+      "name": "Tools & Brushes",
+      "slug": "tools",
+      "department": "Tools & Brushes",
+      "description": "Hand-crafted vegan bristles designed for seamless blend"
+    },
+    {
+      "id": "cat-bath",
+      "name": "Bath & Body",
+      "slug": "bath-body",
+      "department": "Bath & Body",
+      "description": "Enriched royal body oils and saffron body butters"
+    }
+  ],
+  "brands": [
+    {
+      "id": "br-mariyam",
+      "name": "Mariyam Maquillage",
+      "slug": "mariyam-maquillage",
+      "origin": "Mumbai, India",
+      "description": "Haute Beauté Indienne with 24K gold & Kashmiri saffron bioactives",
+      "featured": true
+    },
+    {
+      "id": "br-forest",
+      "name": "Forest Essentials",
+      "slug": "forest-essentials",
+      "origin": "Uttarakhand, India",
+      "description": "Luxurious Ayurvedic beauty formulations",
+      "featured": true
+    },
+    {
+      "id": "br-kama",
+      "name": "Kama Ayurveda",
+      "slug": "kama-ayurveda",
+      "origin": "Delhi, India",
+      "description": "Traditional authentic botanical preparations",
+      "featured": true
+    }
+  ],
+  "inventory": [
+    {
+      "productId": "mm-prod-1",
+      "sku": "MM-RSF-101",
+      "stockCount": 85,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:29:50.359Z"
+    },
+    {
+      "productId": "mm-prod-2",
+      "sku": "MM-HVM-202",
+      "stockCount": 140,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-3",
+      "sku": "MM-24K-303",
+      "stockCount": 65,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-4",
+      "sku": "MM-MCR-404",
+      "stockCount": 45,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-5",
+      "sku": "MM-PGD-505",
+      "stockCount": 75,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-6",
+      "sku": "KAY-MATTE-LIP",
+      "stockCount": 110,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-7",
+      "sku": "MIN-SPF-50",
+      "stockCount": 180,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-8",
+      "sku": "DOT-CER-MOIST",
+      "stockCount": 95,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-9",
+      "sku": "SUGAR-KAJAL-01",
+      "stockCount": 150,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-10",
+      "sku": "MAC-STUDIO-FIX",
+      "stockCount": 30,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-11",
+      "sku": "HUDA-EMPOWER",
+      "stockCount": 22,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-12",
+      "sku": "CT-MAGIC-CRM",
+      "stockCount": 18,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-13",
+      "sku": "MM-OUD-NOIR",
+      "stockCount": 35,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-14",
+      "sku": "PIL-ROSEMARY-OIL",
+      "stockCount": 120,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-15",
+      "sku": "PLUM-VANILLA-BUTTER",
+      "stockCount": 80,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-16",
+      "sku": "BSC-BEARD-GROWTH",
+      "stockCount": 50,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "productId": "mm-prod-17",
+      "sku": "PAC-PRO-BRUSH-SET",
+      "stockCount": 40,
+      "lowStockThreshold": 25,
+      "reorderPoint": 50,
+      "lastUpdated": "2026-10-06T17:07:31.510Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": "cart-1791306635222-ovxf",
+      "sessionId": "test-session-123",
+      "items": [
+        {
+          "id": "ci-1791306635223-f82a",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 84,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 2,
+          "price": 1899
+        }
+      ],
+      "createdAt": "2026-10-06T17:10:35.222Z",
+      "updatedAt": "2026-10-06T17:10:35.223Z"
+    },
+    {
+      "id": "cart-1791306847895-ok48",
+      "sessionId": "sess_4ez3dojmfmuwxuk6x",
+      "items": [],
+      "createdAt": "2026-10-06T17:14:07.895Z",
+      "updatedAt": "2026-10-06T17:14:07.895Z"
+    },
+    {
+      "id": "cart-1791307155650-ghnb",
+      "sessionId": "audit-cart-1",
+      "items": [
+        {
+          "id": "ci-1791307155651-rouo",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": -3,
+          "price": 1899
+        },
+        {
+          "id": "ci-1791307155658-iua0",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 2.7,
+          "price": 1899
+        }
+      ],
+      "createdAt": "2026-10-06T17:19:15.650Z",
+      "updatedAt": "2026-10-06T17:19:15.658Z"
+    }
+  ],
+  "wishlists": [
+    {
+      "id": "wl-01",
+      "userId": "usr-cust-01",
+      "productIds": [
+        "mm-prod-1",
+        "mm-prod-13"
+      ],
+      "updatedAt": "2026-10-06T17:07:31.510Z"
+    },
+    {
+      "id": "wl-1791306847959",
+      "sessionId": "sess_4ez3dojmfmuwxuk6x",
+      "productIds": [],
+      "updatedAt": "2026-10-06T17:14:07.959Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1791307790210",
+      "orderNumber": "MM-2026-3929",
+      "createdAt": "2026-10-06T17:29:50.210Z",
+      "items": [
+        {
+          "id": "ord-item-1791307790208-gylo",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 1,
+          "price": 1899
+        }
+      ],
+      "subtotal": 1899,
+      "discountAmount": 0,
+      "discount": 0,
+      "shippingFee": 0,
+      "totalAmount": 1899,
+      "total": 1899,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "shippingAddress": {
+        "fullName": "Tara Sen",
+        "phone": "9820154321",
+        "street": "302 Marine Plaza",
+        "pincode": "400020"
+      },
+      "status": "Cancelled",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-402752893IN",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:29:50.211Z",
+          "description": "Order MM-2026-3929 confirmed with UPI payment."
+        },
+        {
+          "status": "Cancelled",
+          "timestamp": "2026-10-06T17:29:50.361Z",
+          "description": "Customer cancellation verified"
+        }
+      ]
+    },
+    {
+      "id": "ord-1791307677970",
+      "orderNumber": "MM-2026-6369",
+      "createdAt": "2026-10-06T17:27:57.971Z",
+      "items": [
+        {
+          "id": "ord-item-1791307677969-rla0",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 2,
+          "price": 1899
+        }
+      ],
+      "subtotal": 3798,
+      "discountAmount": 760,
+      "discount": 760,
+      "couponCode": "ROYAL20",
+      "shippingFee": 0,
+      "totalAmount": 3038,
+      "total": 3038,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "shippingAddress": {
+        "fullName": "Kavya Patel",
+        "phone": "9876543210",
+        "street": "12 Marine Drive",
+        "pincode": "400020"
+      },
+      "status": "Cancelled",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-860482700IN",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:27:57.971Z",
+          "description": "Order MM-2026-6369 confirmed with UPI payment."
+        },
+        {
+          "status": "Cancelled",
+          "timestamp": "2026-10-06T17:27:58.144Z",
+          "description": "Customer requested cancellation"
+        }
+      ]
+    },
+    {
+      "id": "ord-1791307155678",
+      "orderNumber": "MM-2026-3812",
+      "createdAt": "2026-10-06T17:19:15.678Z",
+      "items": [
+        {
+          "id": "ord-item-1791307155675-lx3g",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 1,
+          "price": 1899
+        }
+      ],
+      "subtotal": 1899,
+      "discountAmount": 0,
+      "discount": 0,
+      "shippingFee": 0,
+      "totalAmount": 1899,
+      "total": 1899,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "shippingAddress": {
+        "fullName": "Test",
+        "phone": "9820011223",
+        "pincode": "123"
+      },
+      "status": "Confirmed",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-670206030IN",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:19:15.678Z",
+          "description": "Order MM-2026-3812 confirmed with UPI payment."
+        }
+      ]
+    },
+    {
+      "id": "ord-1791307155668",
+      "orderNumber": "MM-2026-5379",
+      "createdAt": "2026-10-06T17:19:15.668Z",
+      "items": [
+        {
+          "id": "ord-item-1791307155666-6obj",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": -2,
+          "price": 1899
+        }
+      ],
+      "subtotal": -3798,
+      "discountAmount": 0,
+      "discount": 0,
+      "shippingFee": 99,
+      "totalAmount": 0,
+      "total": 0,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "shippingAddress": {
+        "fullName": "Test",
+        "phone": "9820011223",
+        "pincode": "400050"
+      },
+      "status": "Confirmed",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-919775850IN",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:19:15.668Z",
+          "description": "Order MM-2026-5379 confirmed with UPI payment."
+        }
+      ]
+    },
+    {
+      "id": "ord-1791306701288",
+      "orderNumber": "MM-2026-6262",
+      "createdAt": "2026-10-06T17:11:41.288Z",
+      "items": [
+        {
+          "id": "ord-item-1791306701287-ouda",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 84,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-101",
+            "name": "110 Porcelain Glow",
+            "hexCode": "#F8E5D3",
+            "undertone": "cool",
+            "description": "Very fair with cool pink nuances and luminous finish",
+            "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 1,
+          "price": 1899
+        }
+      ],
+      "subtotal": 1899,
+      "discountAmount": 0,
+      "shippingFee": 0,
+      "totalAmount": 1899,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "shippingAddress": {
+        "fullName": "Diya Roy",
+        "phone": "+91 98200 99881",
+        "street": "Flat 12B, Alipore Heights",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "pincode": "700027"
+      },
+      "status": "Confirmed",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-121208670IN",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:11:41.288Z",
+          "description": "Order MM-2026-6262 confirmed with UPI payment."
+        }
+      ]
+    },
+    {
+      "id": "ord-101",
+      "orderNumber": "MM-2026-9481",
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-05T05:07:31.510Z",
+      "items": [
+        {
+          "id": "item-01",
+          "productId": "mm-prod-1",
+          "product": {
+            "id": "mm-prod-1",
+            "sku": "MM-RSF-101",
+            "name": "Mariyam Maquillage Royal Silk Luminous Foundation SPF 25",
+            "slug": "royal-silk-luminous-foundation",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Foundation",
+            "price": 1899,
+            "mrp": 2499,
+            "compareAtPrice": 2499,
+            "discountPercent": 24,
+            "rating": 4.9,
+            "reviewCount": 840,
+            "verifiedPurchaseCount": 690,
+            "images": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+            ],
+            "shades": [
+              {
+                "id": "sh-101",
+                "name": "110 Porcelain Glow",
+                "hexCode": "#F8E5D3",
+                "undertone": "cool",
+                "description": "Very fair with cool pink nuances and luminous finish",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-102",
+                "name": "128 Warm Sand",
+                "hexCode": "#F1D1B5",
+                "undertone": "warm",
+                "description": "Fair-light with warm golden yellow undertone",
+                "swatchUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-103",
+                "name": "220 Golden Beige",
+                "hexCode": "#E4BD9A",
+                "undertone": "warm",
+                "description": "Medium with golden warm undertones (Most Popular in India)",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-104",
+                "name": "230 Natural Olive",
+                "hexCode": "#D8AE89",
+                "undertone": "olive",
+                "description": "Medium with muted greenish-olive undertone tailored for Desi skin",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-105",
+                "name": "310 Honey Caramel",
+                "hexCode": "#C8976C",
+                "undertone": "warm",
+                "description": "Tan complexion with radiant warm amber & honey tones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-106",
+                "name": "330 Rich Almond",
+                "hexCode": "#B57E53",
+                "undertone": "neutral",
+                "description": "Tan-deep with balanced neutral golden undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-107",
+                "name": "410 Deep Espresso",
+                "hexCode": "#925A37",
+                "undertone": "warm",
+                "description": "Deep dusky complexion with warm terracotta undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              },
+              {
+                "id": "sh-108",
+                "name": "430 Royal Ebony",
+                "hexCode": "#693D25",
+                "undertone": "neutral",
+                "description": "Rich deep complexion with flawless neutral undertones",
+                "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+                "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+                "inStock": true
+              }
+            ],
+            "skinTypeCompatibility": [
+              "Dry",
+              "Normal",
+              "Combination"
+            ],
+            "undertones": [
+              "warm",
+              "neutral",
+              "olive",
+              "cool"
+            ],
+            "finish": "Dewy",
+            "coverage": "Medium",
+            "concerns": [
+              "Uneven Tone",
+              "Dullness",
+              "Dehydration"
+            ],
+            "keyIngredients": [
+              "Hyaluronic Acid",
+              "Kashmiri Saffron Extract",
+              "Niacinamide 2%",
+              "Gold Peptides"
+            ],
+            "benefits": [
+              "Specially formulated for Indian skin tones with zero ashy flashback",
+              "Breathable 16-hour sweat-resistant formula with SPF 25 PA++",
+              "Infused with Kashmiri saffron for continuous barrier nourishment",
+              "Buildable medium-to-full radiant coverage"
+            ],
+            "howToUse": "Dispense 1-2 pumps onto the back of your hand. Dot onto forehead, cheeks, and chin. Blend outwards using the Mariyam Artisanal Foundation Brush or damp sponge for a seamless second-skin radiance.",
+            "ingredientsList": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Dimethicone, Saffron (Crocus Sativus) Stigma Extract, Niacinamide, Sodium Hyaluronate, Gold Tripeptide-1, Glycerin, Silica, Tocopherol, Phenoxyethanol, Ethylhexylglycerin.",
+            "shortDescription": "Weightless serum foundation offering radiant, buildable coverage with true-to-tone Indian undertone calibration.",
+            "fullDescription": "Formulated specifically for the diverse depths and golden, warm, and olive undertones of Indian complexions. Unlike traditional foundations that ash out under flash photography, Royal Silk merges saffron bio-actives with micro-milled pigments to impart a natural lit-from-within royal glow.",
+            "stockCount": 85,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isClean": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "selectedShade": {
+            "id": "sh-103",
+            "name": "220 Golden Beige",
+            "hexCode": "#E4BD9A",
+            "undertone": "warm",
+            "description": "Medium with golden warm undertones (Most Popular in India)",
+            "swatchUrl": "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=300&q=80",
+            "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=600&q=80",
+            "inStock": true
+          },
+          "quantity": 1,
+          "price": 1899
+        },
+        {
+          "id": "item-02",
+          "productId": "mm-prod-3",
+          "product": {
+            "id": "mm-prod-3",
+            "sku": "MM-24K-303",
+            "name": "Mariyam Maquillage 24K Micro-Mist Lock & Fixer Spray (100ml)",
+            "slug": "24k-micro-mist-lock-fixer",
+            "brand": "Mariyam Maquillage",
+            "brandType": "Mariyam Signature",
+            "department": "Makeup",
+            "category": "Makeup",
+            "subcategory": "Setting Spray",
+            "price": 1499,
+            "mrp": 1999,
+            "compareAtPrice": 1999,
+            "discountPercent": 25,
+            "rating": 4.9,
+            "reviewCount": 390,
+            "verifiedPurchaseCount": 310,
+            "images": [
+              "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80",
+              "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80"
+            ],
+            "primaryImage": "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80",
+            "thumbnail": "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=400&q=80",
+            "gallery": [
+              "https://images.unsplash.com/photo-1608248597359-253457a4128f?auto=format&fit=crop&w=800&q=80"
+            ],
+            "skinTypeCompatibility": [
+              "Normal",
+              "Oily",
+              "Combination",
+              "Dry"
+            ],
+            "finish": "Radiant",
+            "concerns": [
+              "Makeup Meltdown",
+              "Humidity Smudging",
+              "Dullness"
+            ],
+            "keyIngredients": [
+              "24K Pure Gold Flakes",
+              "Rosewater of Kannauj",
+              "Green Tea Bioferment",
+              "PVP Film Former"
+            ],
+            "benefits": [
+              "Locks makeup for 24 hours against tropical heat & monsoons",
+              "Ultra-fine micro-aerosol delivers cloud-like mist without droplets",
+              "Provides subtle golden glow without chunky glitter",
+              "Calms redness with distilled Kannauj rosewater"
+            ],
+            "howToUse": "Shake vigorously to suspend gold particulates. Hold bottle 8-10 inches from face and mist evenly in an 'X' and 'T' pattern across set makeup.",
+            "ingredientsList": "Rosa Damascena Flower Water, Aqua, PVP, Glycerin, 24K Gold, Camellia Sinensis Leaf Extract, Phenoxyethanol, Disodium EDTA.",
+            "shortDescription": "All-day humidity-proof setting spray with suspended 24K gold flakes and distilled Kannauj rosewater.",
+            "fullDescription": "Engineered specifically for Indian climates, this weightless mist creates an invisible water-resistant shield while imparting a celestial golden hour radiance.",
+            "stockCount": 65,
+            "isBestseller": true,
+            "isFeatured": true,
+            "isCrueltyFree": true,
+            "isVegan": true
+          },
+          "quantity": 1,
+          "price": 1499
+        }
+      ],
+      "subtotal": 3398,
+      "discountAmount": 340,
+      "couponCode": "WELCOME10",
+      "shippingFee": 0,
+      "totalAmount": 3058,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "status": "Shipped",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-847291039IN",
+      "estimatedDeliveryDate": "Tomorrow by 4:00 PM",
+      "shippingAddress": {
+        "fullName": "Aanya Sharma",
+        "phone": "+91 98201 54321",
+        "email": "aanya.sharma@example.com",
+        "street": "402, Sea Green Apartments, Carter Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400050"
+      },
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-05T05:07:31.510Z",
+          "description": "Order confirmed and payment verified via UPI (Ref: UPI-984218)"
+        },
+        {
+          "status": "Packed",
+          "timestamp": "2026-10-05T17:07:31.510Z",
+          "description": "Sanitized and packed in Mariyam Signature luxury gift box with dry ice pack"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-10-06T07:07:31.510Z",
+          "description": "Dispatched via Blue Dart Air Express (AWB: BD-847291039IN)",
+          "location": "Mumbai Central Cargo Terminal"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-01",
+      "orderId": "ord-101",
+      "method": "UPI",
+      "amount": 3058,
+      "status": "Paid",
+      "transactionRef": "UPI-984218-HDFC",
+      "createdAt": "2026-10-05T05:07:31.510Z"
+    },
+    {
+      "id": "pay-1791306701288",
+      "orderId": "ord-1791306701288",
+      "method": "UPI",
+      "amount": 1899,
+      "status": "Paid",
+      "transactionRef": "UPI-701288",
+      "createdAt": "2026-10-06T17:11:41.288Z"
+    },
+    {
+      "id": "pay-1791307155668",
+      "orderId": "ord-1791307155668",
+      "method": "UPI",
+      "amount": 0,
+      "status": "Paid",
+      "transactionRef": "UPI-155668",
+      "createdAt": "2026-10-06T17:19:15.668Z"
+    },
+    {
+      "id": "pay-1791307155678",
+      "orderId": "ord-1791307155678",
+      "method": "UPI",
+      "amount": 1899,
+      "status": "Paid",
+      "transactionRef": "UPI-155678",
+      "createdAt": "2026-10-06T17:19:15.678Z"
+    },
+    {
+      "id": "pay-1791307677971",
+      "orderId": "ord-1791307677970",
+      "method": "UPI",
+      "amount": 3038,
+      "status": "Paid",
+      "transactionRef": "UPI-677971",
+      "createdAt": "2026-10-06T17:27:57.971Z"
+    },
+    {
+      "id": "pay-1791307790211",
+      "orderId": "ord-1791307790210",
+      "method": "UPI",
+      "amount": 1899,
+      "status": "Paid",
+      "transactionRef": "UPI-790211",
+      "createdAt": "2026-10-06T17:29:50.211Z"
+    }
+  ],
+  "shipments": [
+    {
+      "id": "ship-01",
+      "orderId": "ord-101",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-847291039IN",
+      "status": "Shipped",
+      "estimatedDeliveryDate": "Tomorrow by 4:00 PM",
+      "dispatchDate": "2026-10-06T07:07:31.510Z",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-05T05:07:31.510Z",
+          "description": "Order confirmed and payment verified via UPI (Ref: UPI-984218)"
+        },
+        {
+          "status": "Packed",
+          "timestamp": "2026-10-05T17:07:31.510Z",
+          "description": "Sanitized and packed in Mariyam Signature luxury gift box with dry ice pack"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-10-06T07:07:31.510Z",
+          "description": "Dispatched via Blue Dart Air Express (AWB: BD-847291039IN)",
+          "location": "Mumbai Central Cargo Terminal"
+        }
+      ]
+    },
+    {
+      "id": "ship-1791306701288",
+      "orderId": "ord-1791306701288",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-121208670IN",
+      "status": "Confirmed",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:11:41.288Z",
+          "description": "Order MM-2026-6262 confirmed with UPI payment."
+        }
+      ]
+    },
+    {
+      "id": "ship-1791307155668",
+      "orderId": "ord-1791307155668",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-919775850IN",
+      "status": "Confirmed",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:19:15.668Z",
+          "description": "Order MM-2026-5379 confirmed with UPI payment."
+        }
+      ]
+    },
+    {
+      "id": "ship-1791307155678",
+      "orderId": "ord-1791307155678",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-670206030IN",
+      "status": "Confirmed",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:19:15.678Z",
+          "description": "Order MM-2026-3812 confirmed with UPI payment."
+        }
+      ]
+    },
+    {
+      "id": "ship-1791307677971",
+      "orderId": "ord-1791307677970",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-860482700IN",
+      "status": "Cancelled",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:27:57.971Z",
+          "description": "Order MM-2026-6369 confirmed with UPI payment."
+        },
+        {
+          "status": "Cancelled",
+          "timestamp": "2026-10-06T17:27:58.144Z",
+          "description": "Customer requested cancellation"
+        }
+      ]
+    },
+    {
+      "id": "ship-1791307790211",
+      "orderId": "ord-1791307790210",
+      "courierName": "Blue Dart Air Express",
+      "trackingNumber": "BD-402752893IN",
+      "status": "Cancelled",
+      "estimatedDeliveryDate": "Within 2-3 Business Days",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-06T17:29:50.211Z",
+          "description": "Order MM-2026-3929 confirmed with UPI payment."
+        },
+        {
+          "status": "Cancelled",
+          "timestamp": "2026-10-06T17:29:50.361Z",
+          "description": "Customer cancellation verified"
+        }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "description": "10% off your first luxury order"
+    },
+    {
+      "code": "ROYAL15",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderValue": 2000,
+      "description": "15% off orders above ₹2,000"
+    },
+    {
+      "code": "FIRSTGLOW",
+      "discountType": "fixed",
+      "discountValue": 500,
+      "minOrderValue": 2500,
+      "description": "Flat ₹500 off on bridal & prestige orders above ₹2,500"
+    },
+    {
+      "code": "ROYAL20",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minOrderValue": 2500,
+      "description": "20% off luxury orders above ₹2,500",
+      "usedCount": 1
+    },
+    {
+      "code": "BRIDAL15",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderValue": 3000,
+      "description": "15% off bridal trousseau collections above ₹3,000"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-01",
+      "title": "Royal Bridal Season Atelier Special",
+      "description": "Receive a complimentary 24K Gold Setting Mist with any trousseau purchase over ₹2,500",
+      "bannerImage": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&q=80",
+      "discountPercent": 15,
+      "couponCode": "ROYAL15",
+      "validUntil": "2026-12-31",
+      "isActive": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-01",
+      "productId": "mm-prod-1",
+      "author": "Priya Mukherjee",
+      "rating": 5,
+      "date": "2026-09-15",
+      "title": "Finally, zero grey or ashy flashback under flashlights!",
+      "comment": "I wore 220 Golden Beige for my cousin’s wedding in Kolkata. The foundation held up in 34 degree humidity without separating.",
+      "shadeUsed": "220 Golden Beige",
+      "verifiedPurchase": true,
+      "helpfulCount": 42
+    },
+    {
+      "id": "rev-02",
+      "productId": "mm-prod-3",
+      "author": "Ananya Deshmukh",
+      "rating": 5,
+      "date": "2026-09-28",
+      "title": "Transfer-proof through a 4-course banquet!",
+      "comment": "Bombay Nude stayed completely intact through dinner and drinks. Non-drying velvet finish.",
+      "shadeUsed": "Bombay Nude",
+      "verifiedPurchase": true,
+      "helpfulCount": 28
+    }
+  ],
+  "banners": [
+    {
+      "id": "ban-01",
+      "title": "Haute Beauté Indienne",
+      "subtitle": "Engineered for the nuances of Desi complexions & tropical climate endurance",
+      "ctaText": "Explore Royal Atelier",
+      "ctaLink": "/shop",
+      "imageUrl": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1600&q=80",
+      "placement": "hero",
+      "active": true
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-bridal",
+      "title": "The Royal Bridal Trousseau",
+      "slug": "royal-bridal-trousseau",
+      "description": "Long-wear, sweat-resistant formulations curated for Indian wedding ceremonies",
+      "productIds": [
+        "mm-prod-1",
+        "mm-prod-2",
+        "mm-prod-3",
+        "mm-prod-7",
+        "mm-prod-8"
+      ],
+      "bannerImage": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&q=80",
+      "isFeatured": true
+    }
+  ],
+  "beautyProfiles": [
+    {
+      "id": "bp-01",
+      "userId": "usr-cust-01",
+      "skinType": "Combination",
+      "skinTone": "medium",
+      "undertone": "warm",
+      "concerns": [
+        "Barrier Health",
+        "Humidity Resistance",
+        "Hyperpigmentation"
+      ],
+      "preferredCoverage": "Medium",
+      "preferredFinish": "Radiant",
+      "matchedShadeId": "sh-103",
+      "matchedShadeName": "220 Golden Beige",
+      "updatedAt": "2026-10-06T17:07:31.510Z"
+    }
+  ],
+  "shadeRecommendations": [
+    {
+      "skinTone": "medium",
+      "undertone": "warm",
+      "confidenceScore": 92,
+      "matchedShadeId": "sh-103",
+      "matchedShadeName": "220 Golden Beige",
+      "explanation": "Calibrated for medium skin with authentic warm undertones to eliminate ashy cast and blend flawlessly with natural Indian skin nuances.",
+      "id": "sr-1791306788112",
+      "createdAt": "2026-10-06T17:13:08.112Z"
+    },
+    {
+      "id": "sr-01",
+      "userId": "usr-cust-01",
+      "skinTone": "medium",
+      "undertone": "warm",
+      "confidenceScore": 96,
+      "matchedShadeId": "sh-103",
+      "matchedShadeName": "220 Golden Beige",
+      "explanation": "Skin exhibits warm golden nuances perfectly aligned with our 220 Golden Beige spectrum.",
+      "createdAt": "2026-10-06T17:07:31.510Z"
+    }
+  ],
+  "aiConversations": []
+}
